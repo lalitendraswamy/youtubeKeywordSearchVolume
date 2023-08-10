@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/*---------------------------------------------------navbar-----------------------------------------*/
+.nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.bg-container-Banner-section {
+    background-image: url("https://res.cloudinary.com/lalitendra/image/upload/v1691648269/Screenshot_2023-08-10_114645_h0i9na.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.img-Banner-section {
+    border-radius: 300px;
+    height: 300px;
+    width: 300px;
+
+}
+
+.h1-Banner-section {
+    font-size: 60px;
+    color: white;
+}
+
+.span-Banner-section {
+    color: #4b6cc1;
+}
+
+.p-Banner-section {
+    font-size: 50px;
+    color: #9aa5b1;
+}
+
+.button-Banner-section {
+    border-radius: 0px;
+    height: 80px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: #4b6cc1;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.resume-btn {
+    height: 7vh;
+    width: 10vw;
+    font-size: 17px;
+
+}
+
+.resume-btn:hower {
+    background-color: #ffffff;
+}
+
+.nav-img {
+    height: 8vh;
+    width: 17vw;
+    margin-top: -17px;
+    margin-bottom: -13px;
+    margin-left: -15px;
+}
+
+@media screen and (max-width: 576px) {
+    .resume-btn {
+        width: 40vw;
+        margin-bottom: 40px;
+        height: 8vh;
+    }
+
+    .h1-Banner-section {
+        font-size: 30px;
+        color: white;
+        margin-top: 15px;
+    }
+
+    .span-Banner-section {
+        color: #4b6cc1;
+    }
+
+    .p-Banner-section {
+        font-size: 25px;
+        color: #9aa5b1;
+    }
+
+    .nav-img {
+        height: 11vh;
+        width: 27vw;
+        margin-top: -21px;
+        margin-bottom: -16px;
+        margin-left: -15px;
+    }
+
+    .img-Banner-section {
+        border-radius: 200px;
+        height: 200px;
+        width: 200px;
+        margin-top: 70px;
+
+    }
+
+}
+
+/*-----------------------------Search Volume-----------------------------------------*/
+
+
+.main-container {
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: -15px;
+}
+
+.evloy-title {
+    font-size: 52px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+#input {
+    width: 100%;
+    height: 7vh;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    margin-bottom: 30px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#input[type="text"]:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#input[type="text"]:placeholder {
+    color: yellow;
+}
+
+#searchbtn {
+    background-color: #fff;
+    color: #e74c3c;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    font-size: 20px;
+    height: 55px;
+    width: 120px;
+    padding-bottom: 15px;
+}
+
+#searchbtn:hover {
+    transform: scale(1.05);
+}
+
+/*----------------------------------------------------About me-----------------------------------------*/
+
+
+
+
+.container-applications {
+    text-align: center;
+    padding: 50px;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+
+
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-container-aboutme {
+    background-color: #323f4b;
+    padding: 10px;
+}
+
+.heading-aboutme {
+    font-size: 20px;
+    color: #cced00;
+}
+
+.sub-heading-aboutme {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.img-aboutme {
+    height: 450px;
+    width: 350px;
+    border-radius: 30px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.bg-container-skills {
+    background-color: #1f2933;
+    padding: 10px;
+}
+
+.card-skills {
+    height: 100px;
+    width: 100px;
+    background-color: #323f4b;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+
+}
+
+.para-aboutme {
+    font-size: 20px;
+    color: #9aa5b1;
+}
+
+.img-skills {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.para-skills {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.disclass {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media screen and (max-width: 575px) {
+    .img-aboutme {
+        height: 300px;
+        width: 200px;
+        border-radius: 30px;
+        background-size: cover;
+    }
+
+    .para-aboutme {
+        font-size: 15px;
+        color: #9aa5b1;
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+}
+
+
+
+/*------------------footer-----------------------------------------------------------*/
+
+.bg-container-footer-section {
+    background-color: #0d2436;
+    padding: 20px;
+    padding-top: 50px;
+
+
+}
+
+.img-footer-section {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.heading-footer-section {
+    color: #cced00;
+    font-size: 30px;
+}
+
+.para-footer-section {
+    color: #9aa5b1;
+    font-size: 20px;
+}
+
+.footer-section {
+    background-color: #001c32;
+    padding: 20px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.icon-footer-section {
+    color: #5a7184;
+    font-size: 20px;
+}
+
+.icon {
+    font-size: 20px;
+    color: #cced00;
+}
+
+.icon-container {
+    background-color: #202b36;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

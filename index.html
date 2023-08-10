@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://res.cloudinary.com/lalitendra/image/upload/v1688025096/Screenshot_2023-06-29_132044_i6asnm.png" type="image/x-icon">
+    <title>Search Volume of Youtube</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><img src="https://res.cloudinary.com/lalitendra/image/upload/v1688025079/Screenshot_2023-06-29_131827_mvrsus.png" class="nav-img" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#homeSection">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#amSection">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#ftSection">Contact me</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="bg-container-Banner-section d-flex flex-column justify-content-center" id="homeSection">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-5  ml-md-5 ">
+                    <div style="" class="main-container mb-md-5">
+                        <h1 class="evloy-title">Youtube Keyword Search Volume</h1>
+                        <form id="myForm">
+                            <input type="text" class="" id="input" placeholder="enter your keyword here..." />
+                            <button type="submit" id="searchbtn" class="">Search</button>
+                        </form>
+                        <h1></h1>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5  ml-md-5 d-flex flex-column justify-content-center">
+                    <div id="intro">
+                        <h1 style="font-size:45px; color: #cced00;" class="p-Banner-section mb-3">What is Keyword search volume ?</h1>
+                        <p style="font-size:20px;" class="p-Banner-section mb-3">Keyword search volume indicates the number of times a specific term or phrase has been searched for on YouTube. This data can provide valuable insights into the popularity and relevance of certain topics, individuals (such as singers or celebrities), or products. The keyword search volume for that singer's name would tell you the number of times people have searched for that specific term on YouTube.</p>
+                    </div>
+
+                    <p id="display" class="d-none p-Banner-section mb-3">Your keyword "<span id="wordout" style="color: #cced00; font-weight:bolder;" class="p-Banner-section"></span>" has been searched <span style="color: #cced00; font-weight:bolder;" class="p-Banner-section" id="result"></span> times on Youtube.</p>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="fed-about-me" id="amSection">
+
+        <div class="bg-container-aboutme">
+            <div class="cotainer ">
+                <div class="row m-5">
+
+                    <div class="shadow d-none d-md-block order-md-1 col-md-3 ">
+                        <img class="shadow img-aboutme" src="https://res.cloudinary.com/lalitendra/image/upload/v1691673171/Screenshot_2023-08-10_184221_mt0hl5.png" />
+                    </div>
+                    <div class="col-md-9 ">
+                        <div>
+                            <h1 class="heading-aboutme">About The Project</h1>
+                        </div>
+
+                        <div>
+                            <h1 class="sub-heading-aboutme">Applications of Keyword Search Volume:</h1>
+                        </div>
+
+                        <div class="shadow d-md-none">
+                            <img class="shadow img-aboutme" src="https://res.cloudinary.com/lalitendra/image/upload/v1691673171/Screenshot_2023-08-10_184221_mt0hl5.png" />
+                        </div>
+
+                        <div class="container-applications">
+                            <ol style="list-style-type:square; text-align:left; font-size:18px;">
+                                <li>It's built in such a way that it is responsive across devices.</li>
+                                <li>Optimize video titles and descriptions for higher visibility on YouTube.</li>
+                                <li>Create content around trending topics to attract a larger audience.</li>
+                                <li>Track the popularity of specific keywords over time for content planning.</li>
+                                <li>Measure the success of your SEO efforts by monitoring search volume changes.</li>
+                                <li>Identify emerging trends and capitalize on new content opportunities.</li>
+                                <li>Perform competitor analysis by comparing keyword popularity in your niche.</li>
+                                <li>Improve ad targeting by using popular keywords in your video ads.</li>
+                                <li>Inform your content strategy based on audience interests and preferences.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-container-skills">
+            <div class="container">
+                <div class="row disclass">
+
+                    <div class="col-12">
+                        <h1 class="heading-aboutme">Skills Used:</h1>
+                    </div>
+                    <div class="col-5 col-md-2 card-skills m-2 ">
+                        <img class="img-skills" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" />
+                        <p class="para-skills">HTML</p>
+                    </div>
+                    <div class="col-5 col-md-2  m-2  card-skills">
+                        <div>
+                            <img class="img-skills" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" />
+                            <p class="para-skills">CSS</p>
+                        </div>
+                    </div>
+                    <div class="col-5 col-md-2 m-2 card-skills">
+                        <img class="img-skills" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" />
+                        <p class="para-skills">Bootstrap</p>
+                    </div>
+                    <div class="col-5 col-md-2 m-2 card-skills">
+                        <img class="img-skills" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" />
+                        <p class="para-skills">JS</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <div class="fed-footer" id="ftSection">
+
+        <div class="bg-container-footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mt-2 d-flex flex-row">
+                        <div>
+                            <img class="img-footer-section" src="https://res.cloudinary.com/lalitendra/image/upload/v1687974490/IMG-20230628-WA0004_ppos1b.jpg" />
+                        </div>
+                        <div class="ml-3">
+                            <h1 class="heading-footer-section">Lalitendra</h1>
+                            <p class="para-footer-section">MERN Stack Developer</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mt-2">
+                        <div>
+                            <h1 class="heading-footer-section">Phone No.</h1>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#5a7184" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <p class="para-footer-section">9182315404</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mt-2">
+                        <div>
+                            <h1 class="heading-footer-section">E-mail</h1>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#5a7184" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <p class="para-footer-section">lskonna@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mt-2">
+                        <div>
+                            <h1 class="heading-footer-section">Address</h1>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#5a7184" class="bi bi-map" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <p class="para-footer-section">Vivekananda Nagar, Visakhapatnam, India.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12  d-flex flex-row justify-content-center mb-3 social-icon-card">
+                        <div class="icon-container">
+                            <a href="https://github.com/lalitendraswamy" target="_blank"><i class="icon fab fa-github"></i></a>
+                        </div>
+                        <div class="icon-container">
+                            <a href="https://youtube.com/@lalitendraswamy9918" target="_blank"><i class="icon fab fa-youtube"></i></a>
+                        </div>
+                        <div class="icon-container">
+                            <a href="https://www.instagram.com/lallulalitendra/?hl=en" target="_blank"><i class=" icon fab fa-instagram"></i></a>
+                        </div>
+                        <div class="icon-container">
+                            <a href="https://www.linkedin.com/in/lalitendra-swamy/" target="_blank"><i class=" icon fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-section d-flex flex-row justify-content-center ">
+
+            <div class="d-flex flex-row">
+                <div class="mt-1">
+                    <i class="far fa-copyright icon-footer-section"></i>
+                </div>
+                <div class="ml-3">
+                    <p class="para-footer-section">2023 by Lalitendra Swamy Konna. Created with Bootstrap.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
