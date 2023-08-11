@@ -44,16 +44,7 @@
     margin-bottom: 20px;
 }
 
-.resume-btn {
-    height: 7vh;
-    width: 10vw;
-    font-size: 17px;
 
-}
-
-.resume-btn:hower {
-    background-color: #ffffff;
-}
 
 .nav-img {
     height: 8vh;
@@ -64,11 +55,8 @@
 }
 
 @media screen and (max-width: 576px) {
-    .resume-btn {
-        width: 40vw;
-        margin-bottom: 40px;
-        height: 8vh;
-    }
+
+    /* CSS rules for smaller screens */
 
     .h1-Banner-section {
         font-size: 30px;
@@ -92,6 +80,8 @@
         margin-bottom: -16px;
         margin-left: -15px;
     }
+
+
 
     .img-Banner-section {
         border-radius: 200px;
@@ -118,6 +108,34 @@
     letter-spacing: 2px;
     color: white;
     font-weight: bold;
+}
+
+.introh1 {
+    font-size: 45px;
+    color: #cced00;
+}
+
+.intropara {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* CSS rules for smaller screens */
+    .evloy-title {
+        font-size: 40px;
+        color: white;
+        margin-top: 100px;
+    }
+
+    .introh1 {
+        font-size: 35px;
+    }
+
+    .intropara {
+        font-size: 15px;
+        font-weight: bold;
+    }
 }
 
 #input {
@@ -186,7 +204,10 @@ p {
     opacity: 0.8;
 }
 
-
+ol {
+    font-size: 18px;
+    font-style: italic;
+}
 
 
 
@@ -280,7 +301,21 @@ p {
     }
 }
 
+@media screen and (max-width: 768px) {
 
+    /* CSS rules for smaller screens */
+    .bg-container-aboutme {
+        padding: 29px;
+    }
+
+    .container-applications {
+        padding: 10px;
+    }
+
+    ol {
+        font-size: 12px;
+    }
+}
 
 /*------------------footer-----------------------------------------------------------*/
 
